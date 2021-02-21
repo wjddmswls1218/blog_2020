@@ -1,0 +1,85 @@
+.HOME {
+  width: 100%;
+  height: calc(100vh - 50px);
+}
+.HOME .homeArea1 {
+  width: 100%;
+  height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.HOME .homeArea1 .homequickMenu {
+  background-color: rgba(89, 140, 250, 0.4);
+  width: 900px;
+  height: 200px;
+  transition: 0.9s;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.HOME .homeArea1 .homequickMenu:hover {
+  background-color: rgba(149, 216, 255, 0.7);
+}
+.HOME .homeArea2 {
+  width: 100%;
+  height: 650px;
+
+  display: flex;
+  flex-direction: row;
+}
+.HOME .homeArea2 .homeArea2__col1 {
+  width: 700px;
+  height: 450px;
+  background-image: url("https://i.pinimg.com/564x/a2/13/1c/a2131c078ed5adc19f158dc45cc75edc.jpg");
+  background-size: cover;
+  background-position: center center;
+  margin: 0px 90px;
+}
+.HOME .homeArea2 .homeArea2__col2 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.HOME .homeArea2 .homeArea2__col2 h1 {
+  font-size: 24px;
+  margin: 0 0 30px;
+  font-weight: 600;
+  padding: 10px;
+  border-bottom: 1px solid yellow;
+}
+.HOME .homeArea2 .homeArea2__col2 h2 {
+  font-size: 18px;
+  margin: 10px 0px;
+  color: gray;
+}
+.quickBox {
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+  border: 0.5px solid #fff;
+  transition: 0.6s;
+}
+.quickBox:hover i {
+  color: yellow;
+}
+.quickBox i {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+.quickBox q {
+  font-size: 20px;
+  font-weight: 600px;
+}

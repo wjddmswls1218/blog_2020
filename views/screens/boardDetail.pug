@@ -11,7 +11,9 @@ block content
     .boardFooter
         .boardButonArea
             if devMode 
-                button.boardButtonArea__goList 수정하기
+                form(action="/board/updateBoard", method="POST")
+                    input(type="hidden" name="id" value=postData._id)
+                    button.boardButtonArea__goList 수정하기
                 form(action="/board/deleteBoard" method="POST")
                     input(type="hidden" name="id" value=postData._id)
                     button.boardButtonArea__goList 삭제하기

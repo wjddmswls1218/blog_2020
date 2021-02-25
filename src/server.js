@@ -24,7 +24,6 @@ app.use(bodyParser.json());
 connect();
 
 app.use("/", globalRouter);
-
 app.use("/board", boardRouter);
 
 app.listen(PORT, () => {

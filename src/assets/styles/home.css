@@ -35,7 +35,7 @@
 .HOME .homeArea2 .homeArea2__col1 {
   width: 700px;
   height: 450px;
-  background-image: url("https://i.pinimg.com/564x/a2/13/1c/a2131c078ed5adc19f158dc45cc75edc.jpg");
+  background-image: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
   background-size: cover;
   background-position: center center;
   margin: 0px 90px;
@@ -53,12 +53,12 @@
   margin: 0 0 30px;
   font-weight: 600;
   padding: 10px;
-  border-bottom: 1px solid yellow;
+  border-bottom: 1px solid rgb(202, 202, 5);
 }
 .HOME .homeArea2 .homeArea2__col2 h2 {
   font-size: 18px;
   margin: 10px 0px;
-  color: gray;
+  color: rgb(0, 0, 0);
 }
 .quickBox {
   color: #fff;

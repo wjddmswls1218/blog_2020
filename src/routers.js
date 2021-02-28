@@ -14,6 +14,8 @@ const BOARD_DETAIL = `/detail/:id`;
 const BOARD_WRITE = `/write/:type`;
 const BOARD_WRITE_DB = `/write`;
 
+//mongodb
+
 export const routers = {
   HOME,
   CONTACT,

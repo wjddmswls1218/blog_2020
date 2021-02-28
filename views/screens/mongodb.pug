@@ -1,5 +1,17 @@
 extends ../layouts/main.pug
 
 block content
-    h1 MONGODB
-    
+    .mongodbTItle
+        .monogoTitle__head MONGODB
+    .mongodbSearch
+        input.mongodbSearch__search(type="text" placeholder="제목검색...")
+    .mongodbContents
+        .mongodbContents__rsWrapper
+            //- MONGODB HEADER
+            ul.mongodbHeader
+                li.mongodbHeader__field 번호
+                li.mongodbHeader__field 제목
+                li.mongodbHeader__field 작성일
+                li.mongodbHeader__field 조회수
+
+            

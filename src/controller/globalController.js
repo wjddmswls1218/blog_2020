@@ -31,9 +31,24 @@ const boardwriteController = (req, res) => {
   res.render("screens/boardWrite");
 };
 
+const mongodbController = async (req, res) => {
+  try {
+    const dbDataResult = await Post.find({ isDelete: false }).populate({
+      path: `Post`,
+      model: PostType,
+    });
+
+    res.render("srceens/mongodb", { dbDataResult });
+  } catch (e) {
+    console.log(e);
+    res.render("screens/hone");
+  }
+};
+
 export const globalController = {
   homeController,
   contactController,
   javascriptController,
   boardwriteController,
+  mongodbController,
 };
